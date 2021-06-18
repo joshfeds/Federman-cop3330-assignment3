@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Base41{
+readInputFromFile();
+createTableModel();
+printOutput();
+constructEmployees
+}
+class constructEmployees{
+last name
+first name
+salary
+}
+
+Base41<|- constructEmployees
+
+
+@enduml
