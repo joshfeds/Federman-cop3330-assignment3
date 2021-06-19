@@ -1,12 +1,11 @@
 package ex42.base;
 
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
 
 /*
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
@@ -56,45 +55,42 @@ public class Base42 {
             employees[i] = new Employee(employeeAsArray[0], employeeAsArray[1], employeeAsArray[2]);
             i++;
         }
+
         return employees;
     }
-    public String getTabularOutput(Employee [] employees,  Scanner inputIO){
+    public String getTabularOutput(Employee [] employees, int employeeCount){
         int i = 0;
-        String output = "Last      First     Salary\n" +
-                "--------------------------\n";
-        while(i != 7){
+        StringBuilder output = new StringBuilder("Last      First     Salary\n" +
+                "--------------------------\n");
+        while(i < employeeCount){
                 int spaceFirstName = 10 - employees[i].first.length();
                 int spaceLastName = 10 - employees[i].last.length();
-                output += employees[i].first;
+                output.append(employees[i].first);
                 while(spaceFirstName != 0){
-                    output += " ";
+                    output.append(" ");
                     spaceFirstName--;
                 }
-                output += employees[i].last;
+                output.append(employees[i].last);
                 while(spaceLastName != 0){
-                    output += " ";
+                    output.append(" ");
                     spaceLastName--;
                 }
-            output += employees[i].salary + "\n";
+            output.append(employees[i].salary).append("\n");
                 i++;
         }
-        return output;
-    }
-    public int getEmployeeCount(Scanner inputIO){
-        int count = 0;
-        while(inputIO.hasNextLine()){
-            count++;
-        }
-        return count;
+        return output.toString();
     }
     public static void main(String[] args) throws IOException {
         Base42 program = new Base42();
-        Employee[] employees = new Employee[8];
+
         FileReader reader = new FileReader("src/main/java/ex42/base/exercises42_input.txt");
+        Path paths = Paths.get("src/main/java/ex42/base/exercises42_input.txt");
+        Long number = Files.lines(paths).count();
+        int count = number.intValue();
+        Employee[] employees = new Employee[count];
         Scanner inputIO = new Scanner(reader);
-        //int employeecount = program.getEmployeeCount(inputIO);
         employees = program.createEmployeeList(employees, inputIO);
-        String result = program.getTabularOutput(employees, inputIO);
+        String result = program.getTabularOutput(employees, count);
         System.out.print(result);
     }
 }

@@ -3,9 +3,9 @@
 
 class Base41{
 readInputFromFile();
-createTableModel();
+getTabularOutput();
 printOutput();
-constructEmployees
+createEmployeeList
 }
 class constructEmployees{
 last name

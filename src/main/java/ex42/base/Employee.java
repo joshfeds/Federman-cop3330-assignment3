@@ -1,5 +1,10 @@
 package ex42.base;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
+import static java.util.Arrays.sort;
+
 public class Employee {
     public String first;
     public String last;
@@ -8,6 +13,6 @@ public class Employee {
         this.first = fname;
         this.last = lname;
         this.salary = salary;
-
     }
 }
+

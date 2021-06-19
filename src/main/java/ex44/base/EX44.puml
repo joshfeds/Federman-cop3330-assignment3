@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+listCreation <|-- Base44
+Products <|-- Base44
+
+class Base44 {
+doesProductExist();
+getProductName();
+creatingOutput();
+printingOutput();
+}
+class Products{
+Name
+Price
+Quantity
+}
+class listCreation {
+createList();
+}
+
+@enduml
