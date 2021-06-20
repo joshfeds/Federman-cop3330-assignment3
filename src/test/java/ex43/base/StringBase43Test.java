@@ -4,14 +4,15 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Base43Test {
+class StringBase43Test {
 
     @Test
     void outputToFile() {
-        Base43 program = new Base43();
+        StringBase43 program = new StringBase43();
         String expected = "<html>\n" + "\t<head>\n" + "\t\t<title>" + "plub" + "</title>\n";
         expected += "\t\t<meta name=\"author\" content=\"" + "Johnathan Sheepherd" + "\">\n" + "\t</head>\n" +
                 "</html>";
@@ -21,7 +22,7 @@ class Base43Test {
 
     @Test
     void outputToConsole_has_javascript_css() {
-        Base43 program = new Base43();
+        StringBase43 program = new StringBase43();
         website developWebsite = new website();
         File authorFile = new File("./website/Kalib Bins");
         authorFile.mkdir();
@@ -35,11 +36,12 @@ class Base43Test {
     }
     @Test
     void outputToConsole_has_javascript() {
-        Base43 program = new Base43();
+        StringBase43 program = new StringBase43();
         website developWebsite = new website();
         File authorFile = new File("./website/Seven Bock");
         authorFile.mkdir();
         File writer = new File("./website/Seven Bock/index.html");
+
         String expected = "Created " + authorFile;
         expected += "\nCreated " + writer;
         expected += developWebsite.createFolders(true, false, authorFile);
@@ -48,8 +50,8 @@ class Base43Test {
         assertEquals(expected, actual);
     }
     @Test
-    void outputToConsole_has_css() {
-        Base43 program = new Base43();
+    void outputToConsole_has_css() throws IOException {
+        StringBase43 program = new StringBase43();
         website developWebsite = new website();
         File authorFile = new File("./website/Penelope UMUMUMUMUMU");
         authorFile.mkdir();
@@ -63,7 +65,7 @@ class Base43Test {
     }
     @Test
     void outputToConsole_has_nothing() {
-        Base43 program = new Base43();
+        StringBase43 program = new StringBase43();
         website developWebsite = new website();
         File authorFile = new File("./website/Daniel Torres");
         authorFile.mkdir();

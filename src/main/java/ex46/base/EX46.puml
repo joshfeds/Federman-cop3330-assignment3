@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+HashmapBase46 <|-- Base46
+inputFromFile46 <|-- Base46
+IntegerBase46 <|-- Base46
+StringBase46 <|-- Base46
+
+HashmapBase46 --> Base46
+inputFromFile46 --> Base46
+IntegerBase46 --> Base46
+StringBase46 --> Base46
+
+class Base46 {
+    printOutput();
+}
+class HashmapBase46 {
+    getUniqueWords();
+}
+class inputFromFile46 {
+    inputFileToString();
+}
+class IntegerBase46 {
+    getLongestName();
+    findLargestValue();
+}
+class StringBase46 {
+    getStringKey();
+    createHistogram();
+}
+
+@enduml

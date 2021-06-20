@@ -19,20 +19,21 @@ class listCreationTest {
     @Test
     void createList() throws IOException {
         listCreation listCreator = new listCreation();
-        File reader = new File("src/main/java/ex44/base/exercise44_input.json");
+        File reader = new File("resources/ex44/base/exercise44_input.json");
         JsonElement file = JsonParser.parseReader(new FileReader(reader));
         JsonObject object = file.getAsJsonObject();
         List<Products> listProducts = new ArrayList<>();
         JsonArray arrayProducts = object.get("products").getAsJsonArray();
 
-        for(JsonElement productElement : arrayProducts){
-            JsonObject productJsonObj = productElement.getAsJsonObject();
-            String name = productJsonObj.get("name").getAsString();
-            String price = productJsonObj.get("price").getAsString();
-            String quantity = productJsonObj.get("quantity").getAsString();
-            Products product = new Products(name, price, quantity);
-            listProducts.add(product);
-        }
+        Products product1 = new Products("Xbox One", "2500.00", "45");
+        Products product2 = new Products("Playstation", "1500.00", "53");
+        Products product3 = new Products("Soulja Boy Console", "500.00", "100000");
+        Products product4 = new Products("KFC Console", "200.00", "1600");
+        listProducts.add(product1);
+        listProducts.add(product2);
+        listProducts.add(product3);
+        listProducts.add(product4);
+
 
         List<Products> expected = listProducts;
         List<Products> actual = listCreator.createList(listProducts, object);

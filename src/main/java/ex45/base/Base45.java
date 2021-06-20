@@ -5,19 +5,7 @@ import java.io.*;
 /*
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
  *  Copyright 2021 Joshua Federman
- * Given the input file of
 
-One should never utilize the word "utilize" in writing. Use "use" instead.
-For example, "She uses an IDE to write her Java programs" instead of "She
-utilizes an IDE to write her Java programs".
-The program should generate
-
-One should never use the word "use" in writing. Use "use" instead.
-For example, "She uses an IDE to write her Java programs" instead of "She
-uses an IDE to write her Java programs".
-Constraints
-Prompt for the name of the output file.
-Write the output to a new file.
 *
 * Psuedocode:
 *   Read the file

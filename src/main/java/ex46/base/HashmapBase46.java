@@ -20,7 +20,5 @@ public class HashmapBase46 {
         }
         return hashMap;
     }
-    public int findLargestValue(HashMap<String, Integer> hashMap){
-        return Collections.max(hashMap.values());
-    }
+
 }

@@ -1,11 +1,17 @@
 @startuml
 'https://plantuml.com/class-diagram
-
+ListBase41 <-- Base41
+StringBase41 <-- ListBase41
+Base41 <-- StringBase41
 class Base41 {
     7 Names
-
-    takeInputFromFile();
-    sortNamesAlphabetically();
+    read input
     printOutput();
+}
+class ListBase41{
+    getInputFromFile();
+}
+class StringBase41{
+    sortedEmployeesList();
 }
 @enduml

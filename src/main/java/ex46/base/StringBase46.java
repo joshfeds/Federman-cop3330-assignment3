@@ -14,38 +14,35 @@ output += key + ":";
             output += "\n";
  */
 public class StringBase46 {
-    public String getStringKey(Integer largestCharacter, HashMap<String, Integer> hashMap){
+    public String getStringKey(Integer commonCharacter, HashMap<String, Integer> hashMap){
         String key = new String();
-        if(hashMap.isEmpty())
-            return "";
+
         for(Map.Entry entry : hashMap.entrySet()){
-            if(largestCharacter.equals(entry.getValue()))
+            if(commonCharacter.equals(entry.getValue()))
                 key = (String) entry.getKey();
         }
         return key;
     }
-    public String createHistogram(HashMap<String, Integer> hashMap, HashmapBase46 hashmapProgram, String input,
+    public String createHistogram(HashMap<String, Integer> hashMap, IntegerBase46 intProgram,
                                   int longestWord){
-
-
-        String output = new String();
+        StringBuilder output = new StringBuilder();
         while(!hashMap.isEmpty()){
-            Integer largestCharacter = hashmapProgram.findLargestValue(hashMap);
-            String key = getStringKey(largestCharacter, hashMap);
-            System.out.print(key + ":");
+            Integer commonCharacter = intProgram.findLargestValue(hashMap);
+            String key = getStringKey(commonCharacter, hashMap);
+            output.append(key).append(":");
             int spaceUntilLinedUp = longestWord + 1 - key.length();
             while(spaceUntilLinedUp != 0){
-                System.out.print(" ");
+                output.append(" ");
                 spaceUntilLinedUp--;
             }
             int i = 0;
-            while(i < hashMap.get(key).intValue()){
-                System.out.print("*");
+            while(i < hashMap.get(key)){
+                output.append("*");
                 i++;
             }
-            System.out.print("\n");
+            output.append("\n");
             hashMap.remove(key);
         }
-        return output;
+        return output.toString();
     }
 }

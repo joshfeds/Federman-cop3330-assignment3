@@ -4,11 +4,10 @@
 
 listCreation <|-- Base44
 Products <|-- Base44
-
+StringBase44 <|-- Base44
+BooleanBase44 <|-- StringBase44
+Base44 <|-- StringBase44
 class Base44 {
-doesProductExist();
-getProductName();
-creatingOutput();
 printingOutput();
 }
 class Products{
@@ -19,5 +18,11 @@ Quantity
 class listCreation {
 createList();
 }
-
+class BooleanBase44{
+doesProductExist();
+}
+class StringBase44{
+getProductName();
+creatingOutput();
+}
 @enduml

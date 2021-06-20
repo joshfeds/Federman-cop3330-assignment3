@@ -2,7 +2,7 @@
   "products" : [
     {"name": "Xbox One", "price": 2500.00, "quantity": 45},
     {"name": "Playstation", "price": 1500.00, "quantity": 53},
-    {"name": "Soula Boy Console", "price": 500.00, "quantity": 100000},
+    {"name": "Soulja Boy Console", "price": 500.00, "quantity": 100000},
     {"name": "KFC Console", "price": 200.00, "quantity": 1600}
   ]
 }

@@ -1,19 +1,23 @@
 @startuml
 'https://plantuml.com/class-diagram
-
-class Base41{
-readInputFromFile();
-getTabularOutput();
+Base42 --> EmployeeArrayBase42
+EmployeeArrayBase42 --> Employee
+EmployeeArrayBase42 --> StringBase42
+StringBase42 --> Base42
+class Base42{
 printOutput();
-createEmployeeList
 }
-class constructEmployees{
+class Employee{
 last name
 first name
 salary
 }
-
-Base41<|- constructEmployees
+class EmployeeArrayBase42{
+createEmployeeList();
+}
+class StringBase42{
+getTabularOutput();
+}
 
 
 @enduml

@@ -2,9 +2,16 @@
 'https://plantuml.com/class-diagram
 
 
-folderOptions <|-- Base43
-website <|-- Base43
+folderOptions <-- Base43
+website <-- Base43
+StringBase43 <-- Base43
+website <-- StringBase43
+folderOptions <-- StringBase43
+Base43 <-- StringBase43
 class Base43 {
+printConsoleOutput();
+}
+class StringBase43{
 getWebsiteName();
 getAuthorName();
 useJavascriptFiles();
@@ -12,7 +19,6 @@ useCSSFiles();
 folderOptions
 outputToFile();
 outputToConsole();
-printConsoleOutput();
 }
 class folderOptions{
     willCreateFolder();

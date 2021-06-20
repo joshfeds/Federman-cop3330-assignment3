@@ -3,10 +3,10 @@
 
 
 Base45 <|-- StringBase
-
+StringBase <|-- Base45
 
 class Base45 {
-printToFile
+printToFile();
 }
 class StringBase{
 inputFileToString();
