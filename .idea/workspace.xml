@@ -5,49 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ead8c8c2-fe46-4050-a169-07c9e18e41f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/ex41/testCase/exercise41_input_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex41/base/ListBase41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex41/base/StringBase41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex42/base/EmployeeArrayBase42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex42/base/StringBase42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex43/base/StringBase43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex44/base/BooleanBase44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex44/base/StringBase44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex46/base/EX46.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex41/base/ListBase41Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex41/base/StringBase41Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex42/base/StringBase42Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex44/base/BooleanBase44Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex44/base/StringBase44Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex46/base/HashmapBase46Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex46/base/IntegerBase46Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex46/base/StringBase46Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ex44/testCase/exercise44_input_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ex44/testCase/exercise44_input_test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex41/base/Base41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex41/base/Base41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex41/base/EX41.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex41/base/EX41.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex41/base/exercises41_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ex41/base/exercise41_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex41/base/exercises41_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ex41/base/exercise41_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/Base42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex42/base/Base42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/EX42.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex42/base/EX42.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/exercises42_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ex42/base/exercise42_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex43/base/Base43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex43/base/Base43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex43/base/EX43.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex43/base/EX43.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex44/base/Base44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex44/base/Base44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex44/base/EX44.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex44/base/EX44.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex44/base/exercise44_input.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ex44/base/exercise44_input.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex45/base/Base45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex45/base/Base45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex45/base/EX45.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex45/base/EX45.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/Base46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/Base46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/HashmapBase46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/HashmapBase46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/IntegerBase46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/IntegerBase46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/StringBase46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/StringBase46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ex41/base/Base41Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ex42/base/Base42Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ex43/base/Base43Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ex43/base/StringBase43Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ex44/base/Base44Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ex44/base/listCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ex44/base/listCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex42/base/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ex42/base/StringBase42Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ex42/base/StringBase42Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +79,33 @@
       <recent name="ex45.base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Base46">
+  <component name="RunManager" selected="Application.Base42">
+    <configuration name="Base41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex41.base.Base41" />
+      <module name="EX41-46" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex41.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Base42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex42.base.Base42" />
+      <module name="EX41-46" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex42.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Base46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex46.base.Base46" />
       <module name="EX41-46" />
@@ -133,62 +119,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashmapBase46Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringBase42Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EX41-46" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex46.base.*" />
+          <option name="PATTERN" value="ex42.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex46.base" />
-      <option name="MAIN_CLASS_NAME" value="ex46.base.HashmapBase46Test" />
+      <option name="PACKAGE_NAME" value="ex42.base" />
+      <option name="MAIN_CLASS_NAME" value="ex42.base.StringBase42Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerBase46Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringBase42Test.getTabularOutput_employee_count_less_than_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EX41-46" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex46.base.*" />
+          <option name="PATTERN" value="ex42.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex46.base" />
-      <option name="MAIN_CLASS_NAME" value="ex46.base.IntegerBase46Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringBase46Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX41-46" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex46.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex46.base" />
-      <option name="MAIN_CLASS_NAME" value="ex46.base.StringBase46Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringBaseTest.swapUsesForUtilize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX41-46" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex45.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex45.base" />
-      <option name="MAIN_CLASS_NAME" value="ex45.base.StringBaseTest" />
-      <option name="METHOD_NAME" value="swapUsesForUtilize" />
+      <option name="PACKAGE_NAME" value="ex42.base" />
+      <option name="MAIN_CLASS_NAME" value="ex42.base.StringBase42Test" />
+      <option name="METHOD_NAME" value="getTabularOutput_employee_count_less_than_file" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Base42" />
+        <item itemvalue="JUnit.StringBase42Test" />
+        <item itemvalue="JUnit.StringBase42Test.getTabularOutput_employee_count_less_than_file" />
+        <item itemvalue="Application.Base41" />
         <item itemvalue="Application.Base46" />
-        <item itemvalue="JUnit.StringBase46Test" />
-        <item itemvalue="JUnit.HashmapBase46Test" />
-        <item itemvalue="JUnit.IntegerBase46Test" />
-        <item itemvalue="JUnit.StringBaseTest.swapUsesForUtilize" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624169909284</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercises 41-46 done">
+      <created>1624220426700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624220426700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,7 +212,8 @@
     <MESSAGE value="Exercises 41-42 half done" />
     <MESSAGE value="Exercises 41-45 done" />
     <MESSAGE value="Exercises 41-46 half-done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercises 41-46 half-done" />
+    <MESSAGE value="Exercises 41-46 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises 41-46 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
