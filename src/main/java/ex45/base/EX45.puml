@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+Base45 <|-- StringBase
+
+
+class Base45 {
+printToFile
+}
+class StringBase{
+inputFileToString();
+swapUsesForUtilize();
+getOutputFileName();
+}
+
+@enduml

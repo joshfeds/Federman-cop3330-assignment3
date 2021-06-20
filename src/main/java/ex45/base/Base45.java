@@ -1,8 +1,6 @@
 package ex45.base;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 /*
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
@@ -24,7 +22,7 @@ Write the output to a new file.
 * Psuedocode:
 *   Read the file
 *   Scan the file and convert it into a string
-*   Within the string, search for the word utilized. For every usage, replace with "use".
+*   Within the string, search for the word utilize. For every usage, replace with "use".
 *   Ask for the name of the new output file.
 *   Write the newly updated string into the output file.
  */
