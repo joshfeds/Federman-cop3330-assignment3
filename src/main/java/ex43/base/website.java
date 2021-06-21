@@ -9,6 +9,7 @@ public class website {
         writeFile.write(output);
         writeFile.flush();
     }
+    //Generate the html file
     public String createFolders(boolean haveJavascript, boolean haveCSS, File authorFolder){
         File javaFolder;
         File cssFolder;

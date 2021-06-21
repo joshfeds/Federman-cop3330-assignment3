@@ -6,6 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="ead8c8c2-fe46-4050-a169-07c9e18e41f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex41/base/Base41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex41/base/Base41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex41/base/ListBase41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex41/base/ListBase41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex41/base/StringBase41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex41/base/StringBase41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/Base42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex42/base/Base42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex42/base/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/EmployeeArrayBase42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex42/base/EmployeeArrayBase42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex42/base/StringBase42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex42/base/StringBase42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex43/base/Base43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex43/base/Base43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex43/base/StringBase43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex43/base/StringBase43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex43/base/folderOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex43/base/folderOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex43/base/website.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex43/base/website.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex44/base/Base44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex44/base/Base44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex44/base/StringBase44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex44/base/StringBase44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex44/base/listCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex44/base/listCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex45/base/Base45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex45/base/Base45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex45/base/StringBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex45/base/StringBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/Base46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/Base46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/HashmapBase46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/HashmapBase46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/StringBase46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/StringBase46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex46/base/inputFromFile46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex46/base/inputFromFile46.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624220843132</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exercises 41-46 done">
+      <created>1624221101214</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624221101214</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

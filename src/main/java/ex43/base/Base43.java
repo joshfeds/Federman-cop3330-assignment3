@@ -10,16 +10,17 @@ import java.util.Scanner;
  *  Copyright 2021 Joshua Federman
 
 * Psuedocode:
-*   Prompt for website name
-*   Prompt for author name
-*   Prompt if the user wants a folder for javascript files
-*       use boolean to get answer
-*   Prompt if the user wants a folder for CSS files
-*       use boolean to get answer
-*   Generate the html file
-*   Print each part that was created
+*
+*
+*
+*
+*
+*
+*
+*
  */
 public class Base43 {
+    //Print each part that was created
     public void printConsoleOutput(String outputConsole){
         System.out.print(outputConsole);
     }

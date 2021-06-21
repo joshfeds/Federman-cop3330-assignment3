@@ -17,18 +17,11 @@ import java.util.stream.Stream;
 /*
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
  *  Copyright 2021 Joshua Federman
-*
-* Psuedocode:
-* Scan input from json file
-* Put input into a list
-* Ask user for product name
-*   if it doesnt exist within the list, ask again
-*   once a product exists, print the name, print, and quantity.
  */
 
 public class Base44 {
 
-
+    //once a product exists, print the name, print, and quantity.
     public void printingOutput(String output){
         System.out.print(output);
     }
@@ -37,6 +30,7 @@ public class Base44 {
         StringBase44 stringProgram = new StringBase44();
         listCreation listCreator = new listCreation();
         File reader = new File("resources/ex44/base/exercise44_input.json");
+        //Scan input from json file
         JsonElement file = JsonParser.parseReader(new FileReader(reader));
         JsonObject object = file.getAsJsonObject();
 

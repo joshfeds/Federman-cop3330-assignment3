@@ -5,18 +5,22 @@ import java.util.Scanner;
 
 public class StringBase43 {
     public static final Scanner input = new Scanner(System.in);
+    //Prompt for website name
     public String webName(){
         System.out.print("Site name: ");
         return input.nextLine();
     }
+    //Prompt for author name
     public String writerName(){
         System.out.print("Author: ");
         return input.nextLine();
     }
+    //Prompt if the user wants a folder for javascript files
     public String useJavascriptFiles(){
         System.out.print("Do you want a folder for JavaScript? ");
         return input.nextLine();
     }
+    //Prompt if the user wants a folder for CSS files
     public String useCSSFiles(){
         System.out.print("Do you want a folder for CSS? ");
         return input.nextLine();

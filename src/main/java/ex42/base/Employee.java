@@ -9,6 +9,7 @@ public class Employee {
     public String first;
     public String last;
     public String salary;
+    //Make a class that constructs the last name, first name, and salary
     Employee(String lname, String fname, String salary){
         this.first = fname;
         this.last = lname;

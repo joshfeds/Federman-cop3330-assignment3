@@ -1,6 +1,7 @@
 package ex42.base;
 
 public class StringBase42 {
+    //Create a tabular string model filled with the list of employees
     public String getTabularOutput(Employee [] employees, int employeeCount){
         int i = 0;
         StringBuilder output = new StringBuilder("Last      First     Salary\n" +

@@ -7,16 +7,10 @@ import java.util.Map;
 /*
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
  *  Copyright 2021 Joshua Federman
-* Psuedocode:
-*   Read input file
-*   Create hashmap of the string
-*        The key will be the individual words, the value represents how many of each individual key.
-*   Find the key with the largest value and print the value using asterisks
-*        The longest named key will also have to be found so that the asterisks can be lined up.
-*        After the key is found and printed, delete the key so that the next greatest value can be found.
-*
+
  */
 public class Base46 {
+    //print the histogram
     public void printOutput(String output){
         System.out.println(output);
     }

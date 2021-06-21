@@ -3,6 +3,7 @@ package ex42.base;
 import java.util.Scanner;
 
 public class EmployeeArrayBase42 {
+    //Make a list of employees
     public Employee [] createEmployeeList(Employee[] employees, Scanner inputIO){
         int i = 0;
 

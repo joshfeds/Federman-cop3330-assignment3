@@ -11,15 +11,15 @@ import java.util.Scanner;
  *  Copyright 2021 Joshua Federman
 * Psuedocode:
 *
-*       Read in each name from an input file.
-*       Scan each name using Scanner
-*       Create an ArrayList to get amount of employees in input file easily.
-*       Sort the arraylist alphabetically by last name. This can be done by using Collections.sort
-*           Make the function return a string so that the sorting can be tested
-*       Print now sorted list into a new file.
+*
+*
+*
+*
+*
 *
  */
 public class Base41 {
+    //Print now sorted list into a new file.
     public void printOutput(String output, FileWriter writeFile) throws IOException {
             writeFile.write(output);
             writeFile.flush();
@@ -29,11 +29,11 @@ public class Base41 {
         ListBase41 listProgram = new ListBase41();
         StringBase41 stringProgram = new StringBase41();
 
-        File reader = new File("resources/ex41/base/exercise41_input.txt");
+        File reader = new File("resources/ex41/base/exercise41_input.txt");//Read in each name from an input file.
         File writer = new File("resources/ex41/base/exercise41_output.txt");
         FileWriter writeFile = new FileWriter(writer);
 
-        Scanner inputIO = new Scanner(reader);
+        Scanner inputIO = new Scanner(reader);//Scan each name using Scanner
 
         List<String> employees = new ArrayList<>();
         employees = listProgram.getInputFromFile(inputIO, employees);
