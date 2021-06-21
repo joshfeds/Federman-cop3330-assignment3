@@ -2,12 +2,10 @@ package ex46.base;
 
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map;
 
 /*
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
  *  Copyright 2021 Joshua Federman
-
  */
 public class Base46 {
     //print the histogram

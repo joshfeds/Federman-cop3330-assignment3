@@ -10,14 +10,6 @@ import java.util.*;
 /*
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
  *  Copyright 2021 Joshua Federman
-
- *  Pseudocode:
- *
- *
- *
- *
- *
- *
  */
 public class Base42 {
     //prints tabular model
